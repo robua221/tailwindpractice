@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="main w-full h-screen bg-white font-comic-sans">
+        <div class="container relative mx-auto h-screen">
+            <div class="navbar  px-4 py-6 w-full flex justify-between items-center">
+                <h3 class="font-semibold">neono.design</h3>
+                <div class="links hidden lg:flex gap-10">
+                    <a class="text-sm " href="#">Work</a>
+                    <a class="text-sm opacity-50" href="#">Service</a>
+                    <a class="text-sm opacity-50" href="#">Contact</a>
+                    <a class="text-sm opacity-50" href="#">Pricing</a>
+                </div>
+                <i class="ri-menu-line lg:hidden"></i>
+            </div>
+            <div
+                class="absolute top-1/2 left-1/2  -translate-x-[50%] -translate-y-[50%] w-full items-center flex flex-col  ">
+                <div
+                    class="image w-24 h-24 lg:w-32 lg:h-32  bg-orange-100 rounded-full flex items-center justify-center">
+                    <img src="./images/avatar.png" class="w-20 lg:w-32" alt="">
+                </div>
+                <h3 class="font-semibold text-2xl mt-3 lg:text-3xl">Hi, I'm Robin 🤟</h3>
+                <h1 class="text-4xl lg:text-5xl mt-4 w-3/4 tracking-tight font-semibold leading-none text-center">
+                    Building Fullstack
+                    and Web3 apps.
+                </h1>
+                <p
+                    class="text-center w-3/4 mt-4 font-semibold tracking-tight text-sm lg:text-xl lg:opacity-70 font-medium">
+                    Hi, I am
+                    Robin,
+                    builiding new
+                    apps with
+                    good UI using tailwind
+                    css</p>
+                <button
+                    class="bg-black text-white rounded-full px-4 py-3 mt-8 text-xs font-semibold tracking-tight lg:py-4 lg:px-5 lg:text-xl lg:font-normal">Connect
+                    with
+                    me</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
